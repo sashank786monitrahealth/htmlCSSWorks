@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sashank786monitrahealth/htmlCSSWorks#readme",
   "dependencies": {
-    "jquery": "^3.5.0"
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1"
   }
 }
