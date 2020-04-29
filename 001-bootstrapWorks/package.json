@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sashank786monitrahealth/htmlCSSWorks/issues"
   },
-  "homepage": "https://github.com/sashank786monitrahealth/htmlCSSWorks#readme"
+  "homepage": "https://github.com/sashank786monitrahealth/htmlCSSWorks#readme",
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
 }
