@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sashank786monitrahealth/htmlCSSWorks#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
     "fontawesome": "^5.6.3",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.1"
