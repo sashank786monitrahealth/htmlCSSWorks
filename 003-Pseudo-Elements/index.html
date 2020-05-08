@@ -9,12 +9,18 @@
     h1.heading::before{
         content:'*';
     }
+    p::first-line{
+        color:red;
+    }
+    p#Two::after{
+        content:url('https://f1.pngfuel.com/png/221/675/794/smiley-face-happiness-emoticon-pink-glitter-emoji-black-sticker-png-clip-art.png')
+    }
     </style>
 </head>
 <body>
     <h1 class="heading">pseudo elements are weird</h1>
     <p>Lorem ipsum dolor sit amet, nunc massa, nec sint cursus. </p>
-     <p>   Nam scelerisque vel, purus dapibus, non tortor sed. Dictum varius, praesent ac, nullam eleifend. Scelerisque amet. Vehicula faucibus sed. Suspendisse tincidunt ad, sed non dapibus, vivamus quis at. Orci laoreet, suspendisse eget egestas, lacinia habitasse pede. In a purus. Justo massa, velit vitae. Sed placerat non. At sed tortor, phasellus consectetuer consectetuer, ullamcorper sit proin.</p>
+     <p id="Two">   Nam scelerisque vel, purus dapibus, non tortor sed. Dictum varius, praesent ac, nullam eleifend. Scelerisque amet. Vehicula faucibus sed. Suspendisse tincidunt ad, sed non dapibus, vivamus quis at. Orci laoreet, suspendisse eget egestas, lacinia habitasse pede. In a purus. Justo massa, velit vitae. Sed placerat non. At sed tortor, phasellus consectetuer consectetuer, ullamcorper sit proin.</p>
 
     <!--A pseudo element is a keyword added to a selector that lets you style
          a specific part of and element (s)
