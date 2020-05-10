@@ -15,7 +15,14 @@
     function newWindow(){
         //let url = "https://dictionary.com/browse/shivoo?s=t";
         let url="https://www.thefreedictionary.com/Chikoo";
-        let newWindow = window.open(url,"","width=500, height=800")
+        let newWindow = window.open(url,"","width=500, height=800");
+
+        // let us close this window after 5 seconds.
+        setTimeout(() => {
+
+             newWindow.close();
+
+        },5000);
     }
     </script>
 </body>
